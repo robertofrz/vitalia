@@ -58,7 +58,7 @@ function Operadoras() {
       </div>
 
       {/* Texto */}
-      <div className="w-full md:w-1/2 text-center md:text-left lexend mt-14">
+      <div className="w-full md:w-1/2 text-center md:text-left mt-14">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight lexend">
           Trabalhamos com as{" "}
           <span className="text-[#208D74] font-semibold">
