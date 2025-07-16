@@ -74,7 +74,7 @@ function Proposta() {
               key={nome}
               className="flex gap-4 bg-white shadow-md border border-neutral-200 rounded-2xl p-6 transition-all hover:shadow-lg"
             >
-              <Icon className="w-10 h-10 text-[#208D74] shrink-0" />
+              <Icon className="w-8 h-8 mt-1 text-[#208D74] shrink-0" />
               <div>
                 <h3 className="font-bold text-xl mb-2 lexend">{nome}</h3>
                 <p className="text-base text-gray-600 leading-relaxed">

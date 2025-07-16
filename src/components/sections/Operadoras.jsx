@@ -44,7 +44,7 @@ function Operadoras() {
         {operadoras.map((operadora) => (
           <div
             key={operadora.nome}
-            className="w-[120px] h-[120px] md:w-[150px] md:h-[150px] bg-white shadow-md border border-neutral-200 p-2 rounded-xl flex justify-center items-center hover:scale-102 hover:bg-neutral-100 hover:shadow-lg transition-all duration-300"
+            className="w-[120px] h-[120px] md:w-[140px] md:h-[140px] bg-white shadow-md border border-neutral-200 p-2 rounded-xl flex justify-center items-center hover:scale-102 hover:bg-neutral-100 hover:shadow-lg transition-all duration-300"
           >
             <Image
               src={operadora.logo}
