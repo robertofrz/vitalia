@@ -41,7 +41,7 @@ function Planos() {
       id="planos"
       className="w-[95vw] max-w-6xl mx-auto px-4 py-20 poppins"
     >
-      <h2 className="text-3xl md:text-4xl text-center font-bold mb-8 md:mb-14 mt-12 lexend">
+      <h2 className="text-3xl md:text-5xl text-center font-bold mb-8 md:mb-14 mt-12 lexend">
         Encontre o{" "}
         <span className="text-[#208D74] font-semibold">Plano Ideal</span> para
         Você
