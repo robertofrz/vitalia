@@ -1,26 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.lexend {
+  font-family: "Lexend Deca", sans-serif;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+/* styles/globals.css */
+body {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem; /* ou o valor exato da altura do seu header fixo */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* animations.css */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes fadeInSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Começa 20px abaixo */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Termina na posição original */
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
+.animate-fadeInSlideUp {
+  animation: fadeInSlideUp 1s ease-out forwards; /* 1 segundo de duração, easing, mantém o estado final */
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1.2s ease-out forwards; /* Para a imagem, um pouco mais lento */
+}
+/* animations.css */
