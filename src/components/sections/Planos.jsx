@@ -70,14 +70,14 @@ function Planos() {
               }`}
             >
               <h3 className="text-2xl font-semibold lexend">{titulo}</h3>
-              <p className="text-base text-gray-600">{texto}</p>
+              <p className="text-base text-black/70 font-light">{texto}</p>
               <a
                 href={`https://wa.me/5511937274647?text=${encodeURIComponent(
                   `Olá! Quero mais informações sobre o plano ${titulo}, por gentileza.`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="py-3 px-6 rounded-full bg-[#208D74] text-white text-md font-semibold cursor-pointer shadow-md hover:shadow-lg hover:bg-[#1a9f7c] transition-colors duration-300 active:scale-98"
+                className="py-2 px-5 rounded-full bg-[#208D74] text-white font-medium cursor-pointer shadow-md hover:shadow-lg hover:bg-[#1a9f7c] transition-colors duration-300 active:scale-98"
               >
                 Quero saber mais
               </a>

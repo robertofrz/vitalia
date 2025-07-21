@@ -8,13 +8,13 @@ function LinhaDoTempo() {
         contratar
       </h2>
 
-      <div className="flex flex-col items-center justify-center w-[95vw] max-w-3xl gap-6 px-4">
+      <div className="flex flex-col items-center justify-start w-[95vw] max-w-3xl gap-6 px-4">
         {/* Etapa 1 */}
         <div className="flex flex-col md:flex-row justify-center items-center text-center md:text-left p-8 gap-4 w-full bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
           <MessageCircle className="w-14 h-14 text-[#208D74]" />
           <div className="flex flex-col items-center md:items-start">
             <h3 className="text-xl font-semibold lexend">Entre em contato</h3>
-            <p className="text-lg text-neutral-600">
+            <p className="text-base text-black/70 font-light">
               Fale com a gente por WhatsApp, telefone ou formulário. É rápido e
               sem compromisso!
             </p>
@@ -22,13 +22,13 @@ function LinhaDoTempo() {
         </div>
 
         {/* Etapa 2 */}
-        <div className="flex flex-col md:flex-row justify-center items-center text-center md:text-left p-8 gap-4 w-full bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+        <div className="flex flex-col md:flex-row justify-start items-center text-center md:text-left p-8 gap-4 w-full bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
           <UserCheck className="w-14 h-14 text-[#208D74]" />
           <div className="flex flex-col items-center md:items-start">
             <h3 className="text-xl font-semibold lexend">
               Entendemos seu perfil
             </h3>
-            <p className="text-lg text-neutral-600">
+            <p className="text-base text-black/70 font-light">
               Nosso time analisa suas necessidades para indicar as melhores
               opções de plano.
             </p>
@@ -36,13 +36,13 @@ function LinhaDoTempo() {
         </div>
 
         {/* Etapa 3 */}
-        <div className="flex flex-col md:flex-row justify-center items-center text-center md:text-left p-8 gap-4 w-full bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+        <div className="flex flex-col md:flex-row justify-start items-center text-center md:text-left p-8 gap-4 w-full bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
           <LayoutGrid className="w-14 h-14 text-[#208D74]" />
           <div className="flex flex-col items-center md:items-start">
             <h3 className="text-xl font-semibold lexend">
               Apresentamos as opções
             </h3>
-            <p className="text-lg text-neutral-600">
+            <p className="text-base text-black/70 font-light">
               Você recebe comparativos com planos ideais para seu perfil e
               orçamento.
             </p>
@@ -50,13 +50,13 @@ function LinhaDoTempo() {
         </div>
 
         {/* Etapa 4 */}
-        <div className="flex flex-col md:flex-row justify-center items-center text-center md:text-left p-8 gap-4 w-full bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+        <div className="flex flex-col md:flex-row justify-start items-center text-center md:text-left p-8 gap-4 w-full bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
           <FileCheck className="w-14 h-14 text-[#208D74]" />
           <div className="flex flex-col items-center md:items-start">
             <h3 className="text-xl font-semibold lexend">
               Escolha e contratação
             </h3>
-            <p className="text-lg text-neutral-600">
+            <p className="text-base text-black/70 font-light">
               Juntos finalizamos a escolha e cuidamos de toda a parte
               burocrática.
             </p>

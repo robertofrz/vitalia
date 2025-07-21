@@ -15,10 +15,9 @@ function CallToAction() {
         com quem entende do assunto?
       </h2>
 
-      <p className="text-lg md:text-xl text-neutral-600 w-full md:w-[80%] mt-4 text-center">
+      <p className="text-lg md:text-xl text-black/70 w-full md:w-[80%] mt-4 text-center">
         Nossa equipe está pronta para te ajudar a encontrar o plano ideal com
-        segurança, economia e zero burocracia. Fale agora memdo com uma
-        consultora e tire todas as suas dúvidas!
+        segurança, economia e zero burocracia!
       </p>
 
       <a
@@ -38,7 +37,7 @@ function CallToAction() {
         <hr className="w-32 md:w-48 border-t border-neutral-300" />
       </div>
 
-      <h3 className="text-lg md:text-xl text-neutral-600 text-center leading-relaxed">
+      <h3 className="text-lg  text-black/70 text-center leading-relaxed">
         Deixe seus dados e nossa equipe especializada{" "}
         <br className="hidden md:block" />
         vai te ajudar a encontrar o melhor plano.

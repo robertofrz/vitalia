@@ -67,12 +67,10 @@ function Operadoras() {
           <br className="hidden md:block" />
           do Brasil
         </h2>
-        <p className="text-xl md:text-xl text-black/80 max-w-[90%]  mx-auto md:mx-0">
-          Trabalhamos com uma ampla rede de operadoras, das mais conhecidas às
-          mais acessíveis, para oferecer soluções sob medida para cada perfil.
-          Nossas consultoras analisam suas necessidades e indicam os planos que
-          realmente fazem sentido para você, unindo economia e qualidade no
-          cuidado com sua saúde.
+        <p className="text-lg text-black/70 max-w-[90%] font-light mx-auto md:mx-0">
+          Atuamos com uma ampla rede de operadoras, oferecendo soluções
+          personalizadas que unem economia e qualidade. Nossas consultoras
+          analisam seu perfil e indicam os planos ideais para você.
         </p>
       </div>
     </section>

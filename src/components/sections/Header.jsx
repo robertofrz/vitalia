@@ -20,7 +20,7 @@ export default function Header() {
         </a>
 
         {/* Links - Desktop */}
-        <nav className="hidden md:flex gap-8 items-center">
+        <nav className="hidden lg:flex gap-8 items-center">
           <a
             href="#operadoras"
             className="scroll-smooth text-neutral-700 text-lg hover:text-[#208D74] font-medium transition"
@@ -60,7 +60,7 @@ export default function Header() {
 
         {/* Botão Hamburguer - Mobile */}
         <button
-          className="md:hidden text-neutral-700"
+          className="lg:hidden text-neutral-700"
           onClick={() => setMenuAberto(!menuAberto)}
           aria-label="Abrir menu"
         >
@@ -70,7 +70,7 @@ export default function Header() {
 
       {/* Menu Mobile */}
       {menuAberto && (
-        <div className="md:hidden bg-white border-t border-gray-200 shadow-md">
+        <div className="lg:hidden bg-white border-t border-gray-200 shadow-md">
           <nav className="flex flex-col items-start px-6 py-4 gap-4">
             <a
               href="#operadoras"

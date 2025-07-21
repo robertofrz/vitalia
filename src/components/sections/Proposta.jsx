@@ -12,37 +12,37 @@ function Proposta() {
     {
       nome: "Consultoria gratuita",
       descricao:
-        "Conte com a orientação especializada de nossas consultoras sem nenhum custo. Avaliamos seu perfil, entendemos suas necessidades e indicamos as melhores opções do mercado.",
+        "Receba orientação especializada sem custo. Avaliamos seu perfil e indicamos as melhores opções.",
       icone: "HelpingHand",
     },
     {
       nome: "Atendimento humanizado",
       descricao:
-        "Nosso atendimento é feito por pessoas que realmente se importam, oferecendo suporte claro, empático e comprometido com o seu bem-estar.",
+        "Oferecemos suporte empático, claro e focado no seu bem-estar.",
       icone: "HeartHandshake",
     },
     {
       nome: "Parcerias com as maiores operadoras",
       descricao:
-        "Trabalhamos com as principais operadoras do mercado. Isso nos permite oferecer uma ampla variedade de planos com qualidade e confiança.",
+        "Trabalhamos com as principais operadoras para garantir planos confiáveis e variados.",
       icone: "Handshake",
     },
     {
       nome: "Atendimento nos melhores hospitais do país",
       descricao:
-        "Os planos que oferecemos incluem acesso a hospitais renomados garantindo o melhor cuidado médico para você e sua família.",
+        "Nossos planos oferecem acesso a hospitais de referência em todo o Brasil.",
       icone: "Hospital",
     },
     {
       nome: "Planos para MEI, empresas e pessoa física",
       descricao:
-        "Seja você um microempreendedor, gestor de uma empresa ou buscando um plano individual, temos opções personalizadas para cada perfil e necessidade.",
+        "Temos planos sob medida para microempreendedores, empresas e indivíduos.",
       icone: "Users",
     },
     {
       nome: "Suporte na contratação e pós-venda",
       descricao:
-        "Nossa equipe acompanha todo o processo de contratação e continua ao seu lado após a assinatura, auxiliando em tudo que você precisar.",
+        "Acompanhamos você na contratação e oferecemos suporte contínuo.",
       icone: "Headset",
     },
   ];
@@ -77,7 +77,7 @@ function Proposta() {
               <Icon className="w-8 h-8 mt-1 text-[#208D74] shrink-0" />
               <div>
                 <h3 className="font-bold text-xl mb-2 lexend">{nome}</h3>
-                <p className="text-base text-gray-600 leading-relaxed">
+                <p className="text-base text-black/70 leading-relaxed font-light">
                   {descricao}
                 </p>
               </div>

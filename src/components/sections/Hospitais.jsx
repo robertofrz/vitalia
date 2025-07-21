@@ -55,11 +55,11 @@ function Hospitais() {
           <br className="hidden md:block" />
           do país
         </h2>
-        <p className="text-xl text-neutral-600 mb-6 max-w-[90%] md:w-[70%] mx-auto md:mx-0">
+        <p className="text-lg text-black/70 mb-6 max-w-[90%] md:w-[70%] font-light mx-auto md:mx-0">
           Os planos oferecidos pela Vitalia dão acesso aos hospitais mais
           reconhecidos do Brasil.
         </p>
-        <ul className="list-disc pl-6 text-lg text-neutral-700 text-left max-w-[90%] md:max-w-full mx-auto md:mx-0">
+        <ul className="list-disc pl-6 text-lg text-black/70 text-left font-light max-w-[90%] md:max-w-full mx-auto md:mx-0">
           {hospitais.map((hospital) => (
             <li
               key={hospital.nome}
