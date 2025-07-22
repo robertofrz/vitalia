@@ -5,13 +5,20 @@
 .lexend {
   font-family: "Lexend Deca", sans-serif;
 }
-.poppins {
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-/* styles/globals.css */
-body {
-  scroll-behavior: smooth;
-  scroll-padding-top: 6rem; /* ou o valor exato da altura do seu header fixo */
+.section-width {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: clamp(1rem, 4vw, 3rem);
 }
 
 /* animations.css */

@@ -10,14 +10,14 @@ function Hero() {
   }, []);
 
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 items-center w-[90vw] sm:w-[80%] max-w-7xl mx-auto px-4 py-10 md:py-20 gap-10 sm:gap-10 lg:gap-0 poppins mt-28 sm:mt-22 lg:mt-18">
+    <section className="section-width grid grid-cols-12 items-center gap-4 py-30">
       {/* Texto */}
       <div
-        className={`text-center flex flex-col lg:items-start items-center lg:text-left transition-opacity duration-700 ease-out ${
+        className={`mt-4 col-span-12 lg:col-span-7 flex flex-col gap-2 items-center lg:items-start text-center lg:text-left transition-opacity duration-700 ease-out ${
           isVisible ? "animate-fadeInSlideUp" : "opacity-0"
         }`}
       >
-        <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight lexend">
+        <h1 className="text-4xl lg:text-5xl font-bold mb-4 lexend">
           Transforme a Sua Saúde com um
           <span className="text-[#208D74] font-semibold">
             {" "}
@@ -26,7 +26,7 @@ function Hero() {
           para você
         </h1>
 
-        <p className="text-base sm:text-lg max-w-md md:max-w-lg mx-auto md:mx-0 mb-10 font-light text-black/70">
+        <p className="text-lg lg:text-base w-[80%] mb-4 font-light text-black/70">
           Compare planos, tire dúvidas e conte com atendimento humano de
           verdade.
         </p>
@@ -45,17 +45,17 @@ function Hero() {
 
       {/* Imagem */}
       <div
-        className={`flex justify-center transition-opacity duration-700 ease-out ${
+        className={`col-span-12 lg:col-span-5 mx-auto transition-opacity duration-700 ease-out ${
           isVisible ? "animate-fadeIn" : "opacity-0"
         }`}
       >
         <Image
           src="/familia.png"
           alt="Imagem de uma família feliz com a mãe, um pai e dois filhos."
-          width={500}
-          height={350}
+          width={550}
+          height={400}
           priority
-          className="w-full h-auto max-w-[300px] sm:max-w-[400px] object-contain"
+          className="w-full  object-contain"
         />
       </div>
     </section>

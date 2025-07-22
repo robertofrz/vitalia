@@ -37,17 +37,14 @@ function Planos() {
   ];
 
   return (
-    <section
-      id="planos"
-      className="w-[95vw] max-w-6xl mx-auto px-4 py-20 poppins"
-    >
-      <h2 className="text-3xl md:text-5xl text-center font-bold mb-8 md:mb-14 mt-12 lexend">
+    <section id="planos" className="section-width grid grid-cols-12 py-30">
+      <h2 className="col-span-12 text-4xl text-center font-bold mb-8 md:mb-14 lexend">
         Encontre o{" "}
         <span className="text-[#208D74] font-semibold">Plano Ideal</span> para
         Você
       </h2>
 
-      <div className="flex flex-col gap-14 w-full md:w-4/5 mx-auto">
+      <div className="col-span-12 lg:col-span-8 lg:col-start-3 flex flex-col gap-14">
         {planos.map(({ titulo, texto, imagem, alt, invertido }, index) => (
           <div
             key={index}

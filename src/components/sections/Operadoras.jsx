@@ -35,16 +35,13 @@ function Operadoras() {
   ];
 
   return (
-    <section
-      id="operadoras"
-      className="flex flex-col md:flex-row justify-center items-center md:gap-18 w-[90vw] m-auto py-16 poppins mt-14"
-    >
+    <section id="operadoras" className="section-width grid grid-cols-12 py-30">
       {/* Grid de Logos */}
-      <div className="grid grid-cols-3 gap-3 md:ml-20 md:gap-10 w-full md:w-1/3 place-items-center mt-14">
+      <div className="col-span-12 lg:col-span-6 grid grid-cols-3 gap-6 justify-items-center">
         {operadoras.map((operadora) => (
           <div
             key={operadora.nome}
-            className="w-[120px] h-[120px] md:w-[140px] md:h-[140px] bg-white shadow-md border border-neutral-200 p-2 rounded-xl flex justify-center items-center hover:scale-102 hover:bg-neutral-100 hover:shadow-lg transition-all duration-300"
+            className="w-[120px] h-[120px] p-2 flex justify-center items-center hover:scale-102"
           >
             <Image
               src={operadora.logo}
@@ -58,16 +55,16 @@ function Operadoras() {
       </div>
 
       {/* Texto */}
-      <div className="w-full md:w-1/2 text-center md:text-left mt-14">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight lexend">
+      <div className="col-span-12 lg:col-span-6 mt-14 lg:mt-0 mx-auto text-center w-[90%] lg:text-left">
+        <h2 className="text-4xl font-bold mb-6 leading-tight lexend">
           Trabalhamos com as{" "}
           <span className="text-[#208D74] font-semibold">
             melhores operadoras
           </span>{" "}
-          <br className="hidden md:block" />
+          <br className="hidden lg:block" />
           do Brasil
         </h2>
-        <p className="text-lg text-black/70 max-w-[90%] font-light mx-auto md:mx-0">
+        <p className="text-lg lg:text-base text-black/70 font-light">
           Atuamos com uma ampla rede de operadoras, oferecendo soluções
           personalizadas que unem economia e qualidade. Nossas consultoras
           analisam seu perfil e indicam os planos ideais para você.

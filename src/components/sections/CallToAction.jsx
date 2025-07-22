@@ -4,9 +4,9 @@ function CallToAction() {
   return (
     <section
       id="contato"
-      className="py-40 flex flex-col justify-center items-center min-h-screen poppins w-full max-w-5xl mx-auto px-4 gap-6"
+      className="section-width py-30 flex flex-col justify-center items-center gap-6"
     >
-      <h2 className="text-3xl md:text-5xl text-center font-semibold leading-tight lexend">
+      <h2 className="text-4xl text-center font-semibold leading-tight lexend">
         Pronto para{" "}
         <span className="text-[#208D74] font-semibold">
           cuidar da sua saúde
@@ -15,9 +15,9 @@ function CallToAction() {
         com quem entende do assunto?
       </h2>
 
-      <p className="text-lg md:text-xl text-black/70 w-full md:w-[80%] mt-4 text-center">
-        Nossa equipe está pronta para te ajudar a encontrar o plano ideal com
-        segurança, economia e zero burocracia!
+      <p className="text-black/60 text-lg mt-4 text-center">
+        Nossa equipe está pronta para te ajudar a encontrar o plano ideal <br />{" "}
+        com segurança, economia e zero burocracia!
       </p>
 
       <a
@@ -37,7 +37,7 @@ function CallToAction() {
         <hr className="w-32 md:w-48 border-t border-neutral-300" />
       </div>
 
-      <h3 className="text-lg  text-black/70 text-center leading-relaxed">
+      <h3 className="text-lg text-black/60 text-center leading-relaxed">
         Deixe seus dados e nossa equipe especializada{" "}
         <br className="hidden md:block" />
         vai te ajudar a encontrar o melhor plano.

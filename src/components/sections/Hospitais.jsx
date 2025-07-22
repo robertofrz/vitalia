@@ -43,27 +43,27 @@ function Hospitais() {
   return (
     <section
       id="hospitais"
-      className="flex flex-col-reverse md:flex-row justify-center items-center w-[90vw] m-auto py-20 poppins"
+      className="section-width flex flex-col sm:flex-row items-center justify-center gap-12 py-30"
     >
       {/* Texto */}
-      <div className="w-full md:w-1/2 text-center md:text-left mt-14">
-        <h2 className="text-4xl md:text-5xl font-bold mb-14 leading-tight w-fit md:w-full mx-auto md:mx-0 lexend">
+      <div className="md:w-1/2 lg:w-1/3 text-center lg:text-left order-2 lg:order-1 ">
+        <h2 className="text-4xl font-bold mb-6 leading-tight w-fit md:w-full mx-auto md:mx-0 lexend">
           Atendimento nos <br />
           <span className="text-[#208D74] font-semibold">
             melhores hospitais
           </span>{" "}
-          <br className="hidden md:block" />
+          <br className="hidden lg:block" />
           do país
         </h2>
-        <p className="text-lg text-black/70 mb-6 max-w-[90%] md:w-[70%] font-light mx-auto md:mx-0">
+        <p className="text-lg lg:text-base text-black/70 mb-6 max-w-[90%]  font-light mx-auto md:mx-0">
           Os planos oferecidos pela Vitalia dão acesso aos hospitais mais
           reconhecidos do Brasil.
         </p>
-        <ul className="list-disc pl-6 text-lg text-black/70 text-left font-light max-w-[90%] md:max-w-full mx-auto md:mx-0">
+        <ul className="list-disc pl-6 text-lg lg:text-base text-black/70 text-left font-light max-w-[90%] md:max-w-full mx-auto md:mx-0">
           {hospitais.map((hospital) => (
             <li
               key={hospital.nome}
-              className="hover:text-[#208D74] transition-colors duration-200"
+              className="hover:text-[#208D74] hover:font-semibold"
             >
               {hospital.nome}
             </li>
@@ -73,13 +73,13 @@ function Hospitais() {
       </div>
 
       {/* Imagem */}
-      <div className="w-full md:w-1/3 flex justify-center md:justify-end mt-14">
+      <div className="md:w-1/2 h-fit order-1 lg:order-2 ">
         <Image
           src="/hospitais.png"
           alt="Fachada dos Hospitais Sirio-Libanês, São Luiz e 9 de Julho."
-          width={450}
-          height={450}
-          className="w-[80%] md:w-[450px] h-auto"
+          width={680}
+          height={530}
+          className="mx-auto"
         />
       </div>
     </section>

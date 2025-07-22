@@ -57,11 +57,8 @@ function Proposta() {
   };
 
   return (
-    <section
-      id="proposta"
-      className="w-[95vw] m-auto px-4 md:px-8 py-18 flex flex-col items-center poppins"
-    >
-      <h2 className="text-3xl md:text-5xl text-center font-bold mb-8 md:mb-14 mt-14 lexend">
+    <section id="proposta" className="section-width py-30">
+      <h2 className="text-4xl text-center font-bold mb-8 md:mb-14lexend">
         Por que escolher a{" "}
         <span className="text-[#208D74] font-semibold">Vitalia Saúde</span>?
       </h2>
