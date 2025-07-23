@@ -4,7 +4,7 @@ function CallToAction() {
   return (
     <section
       id="contato"
-      className="w-full bg-gradient-to-b from-white to-[#208D74] py-30"
+      className="w-full bg-gradient-to-b from-white to-[#208D74] py-24"
     >
       <div className="section-width flex flex-col items-center justify-center">
         <h2 className="text-4xl text-center mb-4 font-semibold leading-[1] tracking-[-0.0625rem] lexend">

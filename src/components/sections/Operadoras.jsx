@@ -37,10 +37,10 @@ function Operadoras() {
   return (
     <section
       id="operadoras"
-      className="section-width grid grid-cols-12 place-items-center py-30"
+      className="section-width grid grid-cols-12 place-items-center py-24"
     >
       {/* Grid de Logos */}
-      <div className="col-span-12 lg:col-span-6 grid grid-cols-3 gap-8 justify-items-center">
+      <div className="col-span-12 lg:col-span-6 grid grid-cols-3 gap-8 justify-items-center mt-8">
         {operadoras.map((operadora) => (
           <div
             key={operadora.nome}

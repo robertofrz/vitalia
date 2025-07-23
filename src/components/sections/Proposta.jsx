@@ -57,8 +57,8 @@ function Proposta() {
   };
 
   return (
-    <section id="proposta" className="section-width py-32">
-      <h2 className="text-4xl text-center tracking-[-0.0625rem] leading-[1] font-bold mb-8 md:mb-14lexend">
+    <section id="proposta" className="section-width py-24">
+      <h2 className="text-4xl text-center tracking-[-0.0625rem] leading-[1] mt-8 font-bold mb-8 md:mb-14lexend">
         Por que escolher a{" "}
         <span className="text-[#208D74] font-bold">Vitalia Saúde</span>?
       </h2>

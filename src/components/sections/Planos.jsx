@@ -37,11 +37,10 @@ function Planos() {
   ];
 
   return (
-    <section id="planos" className="w-full bg-[#208D74]  py-32">
+    <section id="planos" className="w-full bg-[#208D74]  py-24">
       <div className="section-width grid grid-cols-12">
-        <h2 className="col-span-12 text-4xl text-center text-white leading-[1] tracking-[-0.0625rem] font-bold mb-8 md:mb-14 lexend">
-          Encontre o{" "}
-          <span className="text-white font-bold underline">Plano Ideal</span>{" "}
+        <h2 className="col-span-12 text-4xl text-center mt-8 text-white leading-[1] tracking-[-0.0625rem] font-semibold mb-8 md:mb-14 lexend">
+          Encontre o <span className="text-white font-bold">Plano Ideal</span>{" "}
           para Você
         </h2>
 

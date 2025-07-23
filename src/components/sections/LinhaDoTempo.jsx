@@ -1,6 +1,6 @@
 function LinhaDoTempo() {
   return (
-    <section className="section-width py-30">
+    <section className="section-width py-24">
       <div className="grid grid-cols-12">
         <h2 className="col-span-12 text-4xl mb-8 font-bold text-center leading-[1] tracking-[-0.0625rem] text-black lexend">
           Veja como é <span className="text-[#208D74] font-bold">fácil</span>{" "}

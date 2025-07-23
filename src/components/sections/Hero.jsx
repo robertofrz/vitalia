@@ -10,7 +10,7 @@ function Hero() {
   }, []);
 
   return (
-    <section className="section-width grid grid-cols-12 place-items-center gap-2 lg:gap-0 py-30">
+    <section className="section-width grid grid-cols-12 place-items-center gap-2 lg:gap-0 py-24">
       {/* Texto */}
       <div
         className={`mt-10 col-span-12 lg:col-span-7 flex flex-col gap-2 items-center lg:items-start text-center lg:text-left transition-opacity duration-700 ease-out ${
