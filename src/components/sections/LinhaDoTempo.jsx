@@ -1,15 +1,16 @@
 function LinhaDoTempo() {
   return (
-    <section className="w-full bg-[#208D74] py-30">
-      <div className="section-width grid grid-cols-12">
-        <h2 className="col-span-12 text-4xl mb-14 text-center leading-[1] tracking-[-0.0625rem] text-white lexend">
-          Veja como é <span className="font-semibold underline">fácil</span>{" "}
+    <section className="section-width py-30">
+      <div className="grid grid-cols-12">
+        <h2 className="col-span-12 text-4xl mb-8 font-bold text-center leading-[1] tracking-[-0.0625rem] text-black lexend">
+          Veja como é <span className="text-[#208D74] font-bold">fácil</span>{" "}
           contratar
         </h2>
 
         <div className="col-span-12 sm:col-span-6 sm:col-start-4 flex flex-col items-center justify-center gap-8">
           {/* Etapa 1 */}
-          <div className="w-full flex flex-col md:flex-row justify-start items-center text-center md:text-left p-6 gap-4 sm:gap-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+
+          <div className="border border-neutral-200 w-full flex flex-col md:flex-row justify-start items-center text-center md:text-left p-6 gap-4 sm:gap-6 bg-white rounded-2xl shadow-md transition-all hover:shadow-lg">
             <p className="text-[#208D74] text-6xl font-semibold lexend">1</p>
             <div className="flex flex-col gap-2 items-center md:items-start">
               <h3 className="text-xl font-semibold lexend">Entre em contato</h3>
@@ -21,7 +22,7 @@ function LinhaDoTempo() {
           </div>
 
           {/* Etapa 2 */}
-          <div className="w-full flex flex-col md:flex-row justify-start items-center text-center md:text-left p-6 gap-4 sm:gap-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="border border-neutral-200 w-full flex flex-col md:flex-row justify-start items-center text-center md:text-left p-6 gap-4 sm:gap-6 bg-white rounded-2xl shadow-md transition-all hover:shadow-lg">
             <p className="text-[#208D74] text-6xl font-semibold lexend">2</p>
             <div className="flex flex-col gap-2 items-center md:items-start">
               <h3 className="text-xl font-semibold lexend">
@@ -35,7 +36,7 @@ function LinhaDoTempo() {
           </div>
 
           {/* Etapa 3 */}
-          <div className="w-full flex flex-col md:flex-row justify-start items-center text-center md:text-left p-6 gap-4 sm:gap-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="border border-neutral-200 w-full flex flex-col md:flex-row justify-start items-center text-center md:text-left p-6 gap-4 sm:gap-6 bg-white rounded-2xl shadow-md transition-all hover:shadow-lg">
             <p className="text-[#208D74] text-6xl font-semibold lexend">3</p>
             <div className="flex flex-col gap-2 items-center md:items-start">
               <h3 className="text-xl font-semibold lexend">
@@ -49,7 +50,7 @@ function LinhaDoTempo() {
           </div>
 
           {/* Etapa 4 */}
-          <div className="w-full flex flex-col md:flex-row justify-start items-center text-center md:text-left p-6 gap-4 sm:gap-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="border border-neutral-200 w-full flex flex-col md:flex-row justify-start items-center text-center md:text-left p-6 gap-4 sm:gap-6 bg-white rounded-2xl shadow-md transition-all hover:shadow-lg">
             <p className="text-[#208D74] text-6xl font-semibold lexend">4</p>
             <div className="flex flex-col gap-2 items-center md:items-start">
               <h3 className="text-xl font-semibold lexend">

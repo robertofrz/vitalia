@@ -46,7 +46,7 @@ export default function Formulario({ estados }) {
     <form
       action="https://formsubmit.co/robertofrz94@gmail.com"
       method="POST"
-      className="w-full max-w-md mx-auto p-8 border-t-8 border-b-8 border-r-3 border-l-3 bg-white border-[#208D74] shadow-lg rounded-lg flex flex-col gap-6"
+      className="w-full max-w-md mx-auto p-8 bg-white  shadow-lg rounded-xl flex flex-col gap-6"
     >
       <FloatingInput
         label="Nome completo"
