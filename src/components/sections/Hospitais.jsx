@@ -43,11 +43,11 @@ function Hospitais() {
   return (
     <section
       id="hospitais"
-      className="section-width flex flex-col sm:flex-row items-center justify-center gap-20 py-30"
+      className="section-width flex flex-col lg:flex-row items-center justify-center gap-20 py-32"
     >
       {/* Texto */}
-      <div className="md:w-1/2 lg:w-1/3 text-center lg:text-left order-2 lg:order-1 ">
-        <h2 className="text-4xl font-bold mb-4 leading-[1] tracking-[-0.0625rem] w-fit md:w-full mx-auto md:mx-0 lexend">
+      <div className="w-full lg:w-1/3 text-center lg:text-left order-2 lg:order-1 ">
+        <h2 className="text-4xl font-bold mb-4 leading-[1] tracking-[-0.0625rem] w-fit  mx-auto lexend">
           Atendimento nos <br />
           <span className="text-[#208D74] font-bold">
             melhores hospitais
@@ -55,15 +55,15 @@ function Hospitais() {
           <br className="hidden lg:block" />
           do país
         </h2>
-        <p className="text-lg lg:text-base text-black/70 mb-8 max-w-[90%]  font-light mx-auto md:mx-0">
+        <p className="text-lg lg:text-base text-black/70 mb-8 max-w-[90%] font-light mx-auto">
           Os planos oferecidos pela Vitalia dão acesso aos hospitais mais
           reconhecidos do Brasil.
         </p>
-        <ul className="list-disc pl-6 text-lg lg:text-base text-black/70 text-left font-light max-w-[90%] md:max-w-full mx-auto md:mx-0">
+        <ul className="pl-6 text-lg lg:text-base text-black/70 text-left font-light w-fit lg:w-full mx-auto">
           {hospitais.map((hospital) => (
             <li
               key={hospital.nome}
-              className="hover:text-[#208D74] hover:font-semibold"
+              className="hover:text-[#208D74] hover:font-medium"
             >
               {hospital.nome}
             </li>

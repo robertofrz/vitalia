@@ -22,26 +22,26 @@ export default function Header() {
         {/* Links - Desktop */}
         <nav className="hidden lg:flex gap-8 items-center">
           <a
-            href="#operadoras"
+            href="/#operadoras"
             className=" text-black/60 hover:text-[#208D74] transition"
           >
             Operadoras
           </a>
           <a
-            href="#hospitais"
+            href="/#hospitais"
             className=" text-black/60  hover:text-[#208D74]  transition"
           >
             Hospitais
           </a>
 
           <a
-            href="#planos"
+            href="/#planos"
             className=" text-black/60  hover:text-[#208D74]  transition"
           >
             Planos
           </a>
           <a
-            href="#proposta"
+            href="/#proposta"
             className=" text-black/60  hover:text-[#208D74]  transition"
           >
             Nossa Proposta
@@ -73,28 +73,28 @@ export default function Header() {
         <div className="lg:hidden bg-white border-t border-gray-200 shadow-md">
           <nav className="flex flex-col items-start px-6 py-4 gap-4">
             <a
-              href="#operadoras"
+              href="/#operadoras"
               className=" text-black/60 py-2  hover:text-[#208D74]  transition"
               onClick={() => setMenuAberto(false)}
             >
               Operadoras
             </a>
             <a
-              href="#hospitais"
+              href="/#hospitais"
               className=" text-black/60 py-2  hover:text-[#208D74]  transition"
               onClick={() => setMenuAberto(false)}
             >
               Hospitais
             </a>
             <a
-              href="#planos"
+              href="/#planos"
               className=" text-black/60 py-2  hover:text-[#208D74]  transition"
               onClick={() => setMenuAberto(false)}
             >
               Planos
             </a>
             <a
-              href="#proposta"
+              href="/#proposta"
               className="  text-black/60 py-2  hover:text-[#208D74]  transition"
               onClick={() => setMenuAberto(false)}
             >

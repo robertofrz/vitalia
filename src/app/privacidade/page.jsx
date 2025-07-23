@@ -1,7 +1,7 @@
 function Privacidade() {
   return (
-    <main className="max-w-2xl mx-auto px-4 py-20 text-black/80 leading-relaxed">
-      <h1 className="text-3xl font-bold text-[#2DC7A3] lexend mb-6 mt-14">
+    <main className="section-width py-20 text-black/80 leading-relaxed">
+      <h1 className="text-4xl font-bold text-[#208D74] lexend mb-6 mt-14 leading-[1] tracking-[-0.0625rem]">
         Política de Privacidade
       </h1>
 
@@ -50,7 +50,7 @@ function Privacidade() {
         qualquer momento. Para isso, envie um e-mail para:{" "}
         <a
           href="mailto:robertofrz94@gmail.com"
-          className="text-[#2DC7A3] underline"
+          className="text-[#208D74] underline"
         >
           robertofrz94@gmail.com
         </a>

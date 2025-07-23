@@ -37,7 +37,7 @@ function Planos() {
   ];
 
   return (
-    <section id="planos" className="section-width grid grid-cols-12 py-30">
+    <section id="planos" className="section-width grid grid-cols-12 py-32">
       <h2 className="col-span-12 text-4xl text-center leading-[1] tracking-[-0.0625rem] font-bold mb-8 md:mb-14 lexend">
         Encontre o <span className="text-[#208D74] font-bold">Plano Ideal</span>{" "}
         para Você
