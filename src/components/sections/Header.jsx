@@ -14,8 +14,8 @@ export default function Header() {
           <Image
             src="/logo.png"
             alt="Logo da Vitalia Saúde"
-            width={150}
-            height={80}
+            width={140}
+            height={35}
           />
         </a>
 
@@ -52,7 +52,7 @@ export default function Header() {
             )}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white bg-[#208D74] px-4 py-2 rounded-full   shadow hover:shadow-md hover:bg-[#1a9f7c] transition-colors duration-300 active:scale-98"
+            className="text-white bg-[#208D74] tracking-[0.0625rem] px-4 py-2 rounded-full   shadow hover:shadow-md hover:bg-[#1a9f7c] transition-colors duration-300 active:scale-98"
           >
             Contato
           </a>

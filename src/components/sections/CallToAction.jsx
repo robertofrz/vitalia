@@ -4,20 +4,18 @@ function CallToAction() {
   return (
     <section
       id="contato"
-      className="section-width py-30 flex flex-col justify-center items-center gap-6"
+      className="section-width py-30 flex flex-col justify-center items-center"
     >
-      <h2 className="text-4xl text-center font-semibold leading-tight lexend">
+      <h2 className="text-4xl text-center mb-4 font-semibold leading-[1] tracking-[-0.0625rem] lexend">
         Pronto para{" "}
-        <span className="text-[#208D74] font-semibold">
-          cuidar da sua saúde
-        </span>{" "}
+        <span className="text-[#208D74] font-bold">cuidar da sua saúde</span>{" "}
         <br className="hidden md:block" />
         com quem entende do assunto?
       </h2>
 
-      <p className="text-black/60 text-lg mt-4 text-center">
-        Nossa equipe está pronta para te ajudar a encontrar o plano ideal <br />{" "}
-        com segurança, economia e zero burocracia!
+      <p className="text-black/60 sm:w-1/2 text-lg mb-8 text-center">
+        Nossa equipe está pronta para te ajudar a encontrar o plano ideal com
+        segurança, economia e zero burocracia!
       </p>
 
       <a
@@ -26,18 +24,18 @@ function CallToAction() {
         )}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-[#208D74] text-white text-xl px-8 py-4 rounded-full font-semibold shadow-md hover:shadow-lg hover:bg-[#26b193] transition"
+        className="bg-[#208D74] tracking-[0.0625rem] text-white text-lg px-6 py-4 rounded-full font-semibold shadow-md hover:shadow-lg hover:bg-[#26b193] transition"
       >
         Atendimento pelo WhatsApp
       </a>
 
-      <div className="flex items-center justify-center gap-4 w-full my-6">
+      <div className="flex items-center justify-center gap-4 w-full my-8">
         <hr className="w-32 md:w-48 border-t border-neutral-300" />
         <span className="text-neutral-400 font-medium text-lg">OU</span>
         <hr className="w-32 md:w-48 border-t border-neutral-300" />
       </div>
 
-      <h3 className="text-lg text-black/60 text-center leading-relaxed">
+      <h3 className="text-lg text-black/60 text-center leading-relaxed mb-4">
         Deixe seus dados e nossa equipe especializada{" "}
         <br className="hidden md:block" />
         vai te ajudar a encontrar o melhor plano.

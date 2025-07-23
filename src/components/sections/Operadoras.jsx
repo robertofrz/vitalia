@@ -35,9 +35,12 @@ function Operadoras() {
   ];
 
   return (
-    <section id="operadoras" className="section-width grid grid-cols-12 py-30">
+    <section
+      id="operadoras"
+      className="section-width grid grid-cols-12 place-items-center py-30"
+    >
       {/* Grid de Logos */}
-      <div className="col-span-12 lg:col-span-6 grid grid-cols-3 gap-6 justify-items-center">
+      <div className="col-span-12 lg:col-span-6 grid grid-cols-3 gap-8 justify-items-center">
         {operadoras.map((operadora) => (
           <div
             key={operadora.nome}
@@ -46,8 +49,8 @@ function Operadoras() {
             <Image
               src={operadora.logo}
               alt={operadora.alt}
-              width={150}
-              height={150}
+              width={160}
+              height={160}
               className="object-contain"
             />
           </div>
@@ -56,11 +59,9 @@ function Operadoras() {
 
       {/* Texto */}
       <div className="col-span-12 lg:col-span-6 mt-14 lg:mt-0 mx-auto text-center w-[90%] lg:text-left">
-        <h2 className="text-4xl font-bold mb-6 leading-tight lexend">
+        <h2 className="text-4xl font-bold mb-4 leading-[1] tracking-[-0.0625rem] lexend">
           Trabalhamos com as{" "}
-          <span className="text-[#208D74] font-semibold">
-            melhores operadoras
-          </span>{" "}
+          <span className="text-[#208D74] font-bold">melhores operadoras</span>{" "}
           <br className="hidden lg:block" />
           do Brasil
         </h2>

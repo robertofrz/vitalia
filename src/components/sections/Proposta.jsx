@@ -58,12 +58,12 @@ function Proposta() {
 
   return (
     <section id="proposta" className="section-width py-30">
-      <h2 className="text-4xl text-center font-bold mb-8 md:mb-14lexend">
+      <h2 className="text-4xl text-center tracking-[-0.0625rem] leading-[1] font-bold mb-8 md:mb-14lexend">
         Por que escolher a{" "}
-        <span className="text-[#208D74] font-semibold">Vitalia Saúde</span>?
+        <span className="text-[#208D74] font-bold">Vitalia Saúde</span>?
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-6xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl">
         {beneficios.map(({ nome, descricao, icone }) => {
           const Icon = icons[icone];
           return (

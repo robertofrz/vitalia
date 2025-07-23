@@ -43,19 +43,19 @@ function Hospitais() {
   return (
     <section
       id="hospitais"
-      className="section-width flex flex-col sm:flex-row items-center justify-center gap-12 py-30"
+      className="section-width flex flex-col sm:flex-row items-center justify-center gap-20 py-30"
     >
       {/* Texto */}
       <div className="md:w-1/2 lg:w-1/3 text-center lg:text-left order-2 lg:order-1 ">
-        <h2 className="text-4xl font-bold mb-6 leading-tight w-fit md:w-full mx-auto md:mx-0 lexend">
+        <h2 className="text-4xl font-bold mb-4 leading-[1] tracking-[-0.0625rem] w-fit md:w-full mx-auto md:mx-0 lexend">
           Atendimento nos <br />
-          <span className="text-[#208D74] font-semibold">
+          <span className="text-[#208D74] font-bold">
             melhores hospitais
           </span>{" "}
           <br className="hidden lg:block" />
           do país
         </h2>
-        <p className="text-lg lg:text-base text-black/70 mb-6 max-w-[90%]  font-light mx-auto md:mx-0">
+        <p className="text-lg lg:text-base text-black/70 mb-8 max-w-[90%]  font-light mx-auto md:mx-0">
           Os planos oferecidos pela Vitalia dão acesso aos hospitais mais
           reconhecidos do Brasil.
         </p>

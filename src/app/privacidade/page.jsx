@@ -1,6 +1,6 @@
 function Privacidade() {
   return (
-    <main className="max-w-3xl mx-auto px-4 py-20 text-gray-800 poppins leading-relaxed">
+    <main className="max-w-2xl mx-auto px-4 py-20 text-black/80 leading-relaxed">
       <h1 className="text-3xl font-bold text-[#2DC7A3] lexend mb-6 mt-14">
         Política de Privacidade
       </h1>

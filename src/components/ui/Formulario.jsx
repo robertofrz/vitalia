@@ -46,7 +46,7 @@ export default function Formulario({ estados }) {
     <form
       action="https://formsubmit.co/robertofrz94@gmail.com"
       method="POST"
-      className="w-full max-w-md mx-auto p-8 border-t-8 border-b-8 border-r border-l bg-white border-[#208D74] shadow-lg rounded-sm flex flex-col gap-6"
+      className="w-full max-w-md mx-auto p-8 border-t-8 border-b-8 border-r-3 border-l-3 bg-white border-[#208D74] shadow-lg rounded-lg flex flex-col gap-6"
     >
       <FloatingInput
         label="Nome completo"
@@ -129,7 +129,12 @@ export default function Formulario({ estados }) {
       {/* Anti-spam / config */}
       <input type="hidden" name="_subject" value="Nova lead!" />
       <input type="text" name="_honey" style={{ display: "none" }} />
-      <input type="hidden" name="_next" value="https://seusite.com/obrigado" />
+      <input
+        type="hidden"
+        name="_next"
+        value="http://localhost:3000/formulario-enviado"
+      />
+
       <input type="hidden" name="_captcha" value="false" />
 
       {/* Checkbox LGPD */}

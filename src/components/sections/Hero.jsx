@@ -10,23 +10,20 @@ function Hero() {
   }, []);
 
   return (
-    <section className="section-width grid grid-cols-12 items-center gap-4 py-30">
+    <section className="section-width grid grid-cols-12 place-items-center gap-2 lg:gap-0 py-30">
       {/* Texto */}
       <div
-        className={`mt-4 col-span-12 lg:col-span-7 flex flex-col gap-2 items-center lg:items-start text-center lg:text-left transition-opacity duration-700 ease-out ${
+        className={`mt-10 col-span-12 lg:col-span-7 flex flex-col gap-2 items-center lg:items-start text-center lg:text-left transition-opacity duration-700 ease-out ${
           isVisible ? "animate-fadeInSlideUp" : "opacity-0"
         }`}
       >
-        <h1 className="text-4xl lg:text-5xl font-bold mb-4 lexend">
+        <h1 className="text-4xl lg:text-5xl leading-[1] tracking-[-0.0625rem] font-bold mb-4 lexend">
           Transforme a Sua Saúde com um
-          <span className="text-[#208D74] font-semibold">
-            {" "}
-            Plano Certo
-          </span>{" "}
-          para você
+          <span className="text-[#208D74] font-bold"> Plano Certo</span> para
+          Você
         </h1>
 
-        <p className="text-lg lg:text-base w-[80%] mb-4 font-light text-black/70">
+        <p className="text-lg lg:text-base w-[80%] mb-8 font-light text-black/70">
           Compare planos, tire dúvidas e conte com atendimento humano de
           verdade.
         </p>
@@ -37,7 +34,7 @@ function Hero() {
           )}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block py-4 px-6 rounded-full bg-[#208D74] text-white text-base sm:text-lg font-semibold shadow-md hover:shadow-lg hover:bg-[#1e7e67] transition-all duration-300 active:scale-95"
+          className="inline-block py-4 px-6 rounded-full tracking-[0.0625rem] bg-[#208D74] text-white text-base sm:text-lg font-semibold shadow-md hover:shadow-lg hover:bg-[#1e7e67] transition-all duration-300 active:scale-95"
         >
           Solicitar Cotação Gratuita
         </a>
@@ -45,7 +42,7 @@ function Hero() {
 
       {/* Imagem */}
       <div
-        className={`col-span-12 lg:col-span-5 mx-auto transition-opacity duration-700 ease-out ${
+        className={`mt-10 col-span-12 lg:col-span-5 mx-auto transition-opacity duration-700 ease-out ${
           isVisible ? "animate-fadeIn" : "opacity-0"
         }`}
       >
