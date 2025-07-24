@@ -8,10 +8,11 @@ function Operadoras() {
       alt: "Logo da operadora Hapvida",
     },
     {
-      nome: "Unimed",
-      logo: "/logos/unimed.png",
-      alt: "Logo da operadora Unimed",
+      nome: "Alice",
+      logo: "/logos/alice.png",
+      alt: "Logo da operadora Alice",
     },
+
     {
       nome: "Amil",
       logo: "/logos/amil.png",
@@ -23,9 +24,9 @@ function Operadoras() {
       alt: "Logo da operadora SulAmérica",
     },
     {
-      nome: "Alice",
-      logo: "/logos/alice.png",
-      alt: "Logo da operadora Alice",
+      nome: "Unimed",
+      logo: "/logos/unimed.png",
+      alt: "Logo da operadora Unimed",
     },
     {
       nome: "Bradesco",
@@ -37,14 +38,14 @@ function Operadoras() {
   return (
     <section
       id="operadoras"
-      className="section-width grid grid-cols-12 place-items-center py-24"
+      className="section-width grid grid-cols-12 gap-8 place-items-center py-24"
     >
       {/* Grid de Logos */}
-      <div className="col-span-12 lg:col-span-6 grid grid-cols-3 gap-8 justify-items-center mt-8">
+      <div className="col-span-12 lg:col-span-6 grid grid-cols-3 px-2 w-full justify-items-center gap-x-4 lg:gap-x-0 mt-8 lg:mt-0">
         {operadoras.map((operadora) => (
           <div
             key={operadora.nome}
-            className="w-[120px] h-[120px] p-2 flex justify-center items-center hover:scale-102"
+            className="w-[120px] h-[100px] lg:h-[150px] flex justify-center items-center hover:scale-102"
           >
             <Image
               src={operadora.logo}
@@ -58,7 +59,7 @@ function Operadoras() {
       </div>
 
       {/* Texto */}
-      <div className="col-span-12 lg:col-span-6 mt-14 lg:mt-0 mx-auto text-center w-[90%] lg:text-left">
+      <div className="col-span-12 lg:col-span-6 lg:mt-0 mx-auto text-center w-[90%] lg:text-left">
         <h2 className="text-4xl font-bold mb-4 leading-[1] tracking-[-0.0625rem] lexend">
           Trabalhamos com as{" "}
           <span className="text-[#208D74] font-bold">melhores operadoras</span>{" "}
