@@ -29,7 +29,7 @@ function Hero() {
         </p>
 
         <a
-          href={`https://wa.me/5511937274647?text=${encodeURIComponent(
+          href={`https://wa.me/5521997894248?text=${encodeURIComponent(
             `Olá! Quero fazer uma cotação gratuita para um plano de saúde. Por favor, me envie as opções disponíveis.`
           )}`}
           target="_blank"

@@ -49,10 +49,10 @@ function Privacidade() {
         Você pode solicitar acesso, correção ou exclusão dos seus dados a
         qualquer momento. Para isso, envie um e-mail para:{" "}
         <a
-          href="mailto:robertofrz94@gmail.com"
+          href="mailto:vitalia.segurosaude@gmail.com"
           className="text-[#208D74] underline"
         >
-          robertofrz94@gmail.com
+          vitalia.segurosaude@gmail.com
         </a>
       </p>
 

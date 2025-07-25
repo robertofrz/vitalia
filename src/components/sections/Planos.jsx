@@ -71,7 +71,7 @@ function Planos() {
                   {texto}
                 </p>
                 <a
-                  href={`https://wa.me/5511937274647?text=${encodeURIComponent(
+                  href={`https://wa.me/5521997894248?text=${encodeURIComponent(
                     `Olá! Quero mais informações sobre o plano ${titulo}, por gentileza.`
                   )}`}
                   target="_blank"
