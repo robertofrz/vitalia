@@ -132,7 +132,7 @@ export default function Formulario({ estados }) {
       <input
         type="hidden"
         name="_next"
-        value="vitaliasaude.vercel.app/formulario-enviado"
+        value="https://vitaliasaude.vercel.app/formulario-enviado"
       />
 
       <input type="hidden" name="_captcha" value="false" />
