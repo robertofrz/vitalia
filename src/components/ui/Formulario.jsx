@@ -44,7 +44,7 @@ export default function Formulario({ estados }) {
 
   return (
     <form
-      action="https://formsubmit.co/vitalia.segurosaude@gmail.com"
+      action="https://formsubmit.co/9488efe9a81d3c5ef1d12b583176806d"
       method="POST"
       className="w-full max-w-md mx-auto p-8 bg-white  shadow-lg rounded-xl flex flex-col gap-6"
     >

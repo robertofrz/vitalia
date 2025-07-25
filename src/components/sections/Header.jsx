@@ -102,7 +102,7 @@ export default function Header() {
             </a>
 
             <a
-              href={`https://wa.me/5511937274647?text=${encodeURIComponent(
+              href={`https://wa.me/5521997894248?text=${encodeURIComponent(
                 `Olá! Gostaria de mais informações sobre os planos de saúde, por gentileza.`
               )}`}
               target="_blank"
