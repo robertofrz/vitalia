@@ -46,7 +46,7 @@ export default function Formulario({ estados }) {
     <form
       action="https://formsubmit.co/vitalia.segurosaude@gmail.com"
       method="POST"
-      className="w-full max-w-md mx-auto p-8 bg-white  shadow-lg rounded-xl flex flex-col gap-6"
+      className="w-full max-w-md mx-auto p-8 bg-white border border-black/50 shadow-xl rounded-2xl flex flex-col gap-6"
     >
       <FloatingInput
         label="Nome completo"

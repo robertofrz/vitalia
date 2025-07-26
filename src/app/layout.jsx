@@ -3,10 +3,9 @@ import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
 
 export const metadata = {
-  title:
-    "Vitalia Saúde | Encontre o Plano de Saúde Ideal para Você, Sua Família ou Empresa",
+  title: "Planos de Saúde com Consultoria Gratuita | Vitalia Saúde",
   description:
-    "Contrate o plano de saúde ideal com ajuda da Vitalia Saúde. Consultoria gratuita, operadoras confiáveis, planos para todos os perfis e atendimento humanizado do início ao fim.",
+    "Compare e contrate planos de saúde individuais, familiares e empresariais com ótimo custo-benefício. A Vitalia Saúde oferece consultoria gratuita, operadoras confiáveis e atendimento humanizado do início ao fim.",
 };
 
 export default function RootLayout({ children }) {

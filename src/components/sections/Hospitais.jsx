@@ -27,7 +27,7 @@ function Hospitais() {
       </div>
 
       {/* Imagem */}
-      <div className="md:w-1/2 order-1 lg:order-2 mt-8 lg:mt-0 ">
+      <div className="md:w-1/2 order-1 lg:order-2 mt-8 lg:mt-8 ">
         <Image
           src="/hospitais.png"
           alt="Fachada dos Hospitais Sirio-Libanês, São Luiz e 9 de Julho."

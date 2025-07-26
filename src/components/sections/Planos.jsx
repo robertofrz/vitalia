@@ -50,7 +50,7 @@ function Planos() {
               key={index}
               className={`flex flex-col md:flex-row ${
                 invertido ? "md:flex-row-reverse" : ""
-              } items-center md:items-stretch bg-white shadow-md rounded-2xl overflow-hidden`}
+              } items-center md:items-stretch bg-white shadow-xl rounded-2xl overflow-hidden`}
             >
               <Image
                 src={imagem}
@@ -60,13 +60,15 @@ function Planos() {
                 className="object-cover w-full md:w-auto"
               />
               <div
-                className={`p-8 flex flex-col md:justify-center ${
+                className={`p-6 flex flex-col md:justify-center ${
                   invertido
                     ? "items-center text-center md:items-end md:text-right"
                     : "items-center text-center md:items-start md:text-left"
                 }`}
               >
-                <h3 className="text-2xl mb-4 font-semibold lexend">{titulo}</h3>
+                <h3 className="text-2xl mb-4 font-semibold text-black/80 lexend">
+                  {titulo}
+                </h3>
                 <p className="text-base mb-8 text-black/70 font-light">
                   {texto}
                 </p>

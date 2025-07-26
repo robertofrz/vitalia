@@ -18,14 +18,18 @@ function Hero() {
         }`}
       >
         <h1 className="text-4xl lg:text-5xl leading-[1] tracking-[-0.0625rem] font-bold mb-4 lexend">
-          Transforme a Sua Saúde com um
-          <span className="text-[#208D74] font-bold"> Plano Certo</span> para
-          Você
+          Compare e Contrate o
+          <span className="text-[#208D74] font-bold">
+            {" "}
+            Melhor Plano de Saúde
+          </span>{" "}
+          para Você
         </h1>
 
         <p className="text-lg lg:text-base w-[80%] mb-8 font-light text-black/70">
-          Compare planos, tire dúvidas e conte com atendimento humano de
-          verdade.
+          Encontre planos de saúde individuais, familiares ou empresariais com
+          ótimo custo-benefício. Compare preços, tire dúvidas e fale com
+          especialistas de verdade.
         </p>
 
         <a
