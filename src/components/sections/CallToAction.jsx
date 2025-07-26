@@ -25,7 +25,7 @@ function CallToAction() {
           )}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#208D74] tracking-[0.0625rem] text-white text-lg px-6 py-4 rounded-full font-semibold shadow-md hover:shadow-lg hover:bg-[#26b193] transition"
+          className="bg-[#208D74] tracking-[0.0625rem] text-white px-4 py-4 rounded-full font-semibold text-center shadow-md hover:shadow-lg hover:bg-[#26b193] transition"
         >
           Atendimento pelo WhatsApp
         </a>
